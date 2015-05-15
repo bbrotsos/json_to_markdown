@@ -48,7 +48,7 @@ with open("footer.md", "r") as footerFile:
 
 indexPageString = indexPageString + footerText
 
-indexPage = open("Readme.md", "w")
+indexPage = open("Readme_Data_Interoperability.md", "w")
 indexPage.write(indexPageString)
 indexPage.close()
 
