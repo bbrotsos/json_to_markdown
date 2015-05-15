@@ -19,8 +19,12 @@
             "definition": "The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.", 
             "enumeration": [
                 {
-                    "value_item": "",
-                    "value_defintion": ""
+                    "value_item": "Amount",
+                    "value_definition": "Monetary value with units of currency."
+                },
+                {
+                    "value_item": "Code",
+                    "value_definition": "An enumerated list of all allowable values. Each enumerated value is a string that for brevity represents a specific meaning."
                 }
             ]
     	},

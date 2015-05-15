@@ -1,2 +1,4 @@
 #Representation Class Code Profile
-Description: The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.
+Description: The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.<table>
+<thead><tr><th scope='col'>Value Item</th><th scope='col'>Value Meaning</th><th scope='col'>Source</th></tr></thead><tr><td>Amount</td></tr><tr><td>Monetary value with units of currency.</td></tr></table><table>
+<thead><tr><th scope='col'>Value Item</th><th scope='col'>Value Meaning</th><th scope='col'>Source</th></tr></thead><tr><td>Code</td></tr><tr><td>An enumerated list of all allowable values. Each enumerated value is a string that for brevity represents a specific meaning.</td></tr></table>
