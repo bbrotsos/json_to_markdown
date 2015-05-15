@@ -1,0 +1,2 @@
+#Object Class Profile
+Description: Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules.

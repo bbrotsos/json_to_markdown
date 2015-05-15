@@ -1,24 +1,3 @@
-# data_interoperability
-Research and development workspace for testing json-ld with Metadata Vocabulary for Tabular Data, Swagger, 11179, etc.  
-
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Description</th>
-      <th scope="col">Source</th>
-    </tr>
-  </thead>  <tr>
-    <td><a href='data_elements/ObjectClass.md' title='Object Class Details'>Object Class</a></td>
-    <td>Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules.</td>
-    <td>ISO</td>
-  </tr>
-  <tr>
-    <td><a href='data_elements/Property.md' title='Property Details'>Property</a></td>
-    <td>A property may be any feature that humans naturally use to distinguish one individual object from another. It is the human perception of a single quality of an object class in the real world.</td>
-    <td>ISO</td>
-  </tr>
 </table>
 
 ## sources
