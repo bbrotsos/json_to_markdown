@@ -24,7 +24,7 @@ def elementToRow(dataElement):
 
 def enumeratedValueToTable(enumeratedValue):
     tableString = "<table>\n"
-    tableString = tableString + "<thead><tr><th scope='col'>Value Item</th><th scope='col'>Value Meaning</th><th scope='col'>Source</th></tr></thead>"
+    tableString = tableString + "<thead><tr><th scope='col'>Value Item</th><th scope='col'>Value Meaning</th></tr></thead>"
     tableString = tableString + "<tr><td>" + enumeratedValue["value_item"] + "</td></tr>"
     tableString = tableString + "<tr><td>" + enumeratedValue["value_definition"] + "</td></tr>"
     tableString = tableString + "</table>"
