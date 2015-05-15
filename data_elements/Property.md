@@ -1,0 +1,2 @@
+#Property Profile
+Description: A property may be any feature that humans naturally use to distinguish one individual object from another. It is the human perception of a single quality of an object class in the real world.
