@@ -23,7 +23,7 @@ def elementToRow(dataElement):
     return row
 
 def enumeratedValueToTable(enumeratedValue):
-    tableString = tableString + "<tr><td>" + enumeratedValue["value_item"] + "</td></tr>"
+    tableString = "<tr><td>" + enumeratedValue["value_item"] + "</td></tr>"
     tableString = tableString + "<tr><td>" + enumeratedValue["value_definition"] + "</td></tr>"
     return tableString
     
