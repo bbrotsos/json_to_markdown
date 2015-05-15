@@ -1,2 +1,2 @@
-#Representation Class Profile
+#Representation Class Code Profile
 Description: The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.

@@ -14,15 +14,27 @@
         },
         {
             "page_name": "RepresentationClass",
-            "name": "Representation Class",
+            "name": "Representation Class Code",
             "source": "ISO",
-            "definition": "The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules." 
+            "definition": "The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.", 
+            "enumeration": [
+                {
+                    "value_item": "",
+                    "value_defintion": ""
+                }
+            ]
     	},
     	{
     	    "page_name": "Definition",
     	    "name": "Defintion Text",
     	    "source": "ISO",
     	    "definition": "The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text."
+    	},
+    	{
+    	    "page_name": "DataTypeCode",
+    	    "name": "Data Type Code",
+    	    "source": "?",
+    	    "definition": "The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element."
     	},
     	{
     		"page_name": "MinimumLengthNumber",
@@ -41,7 +53,37 @@
     	    "name": "Pattern Text",
     	    "source": "W3C",
     	    "definition": "Pattern is a constraint on the ·value space· of a datatype which is achieved by constraining the lexical space to literals which match a specific pattern. The value of pattern must be a regular expression."
-        }    	
+        },
+        {
+            "page_name": "AdministrativeStatusCode",
+            "name": "Administrative Status Code",
+            "source": "ISO",
+            "definition": "Designation of the status in the administrative life-cycle of a data element."
+        },
+        {
+            "page_name": "CreationDate",
+            "name": "Creation Date",
+            "source": "ISO",
+            "definition": "Date the element was created by the Data Steward."
+        },
+        {
+            "page_name": "VersionIdentifier",
+            "name": "Version Identifier",
+            "source": "?",
+            "definition": "The unique version identifier of a data element"
+        },
+        {
+        	"page_name": "DataStewardName",
+        	"name": "Data Steward Name",
+        	"source": "?",
+        	"definition": "A person delegated the responsibility for managing a data element."
+        },
+        {
+            "page_name": "BusinessOwnerName",
+            "name": "Business Owner Name",
+            "source": "?",
+            "definition": "The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified."
+        }
     ]
 }
    

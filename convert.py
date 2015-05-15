@@ -40,6 +40,7 @@ with open('data_interoperability.json') as data_file:
     data = json.load(data_file)
     
 for dataElement in data["data_elements"]:
+    print ("Processing " + dataElement["name"] + "...")
     indexPageString = indexPageString + elementToRow(dataElement)
     elementToPage(dataElement)
     

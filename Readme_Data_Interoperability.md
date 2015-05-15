@@ -20,7 +20,7 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td>ISO</td>
   </tr>
   <tr>
-    <td><a href='data_elements/RepresentationClass.md' title='Representation Class Details'>Representation Class</a></td>
+    <td><a href='data_elements/RepresentationClass.md' title='Representation Class Code Details'>Representation Class Code</a></td>
     <td>The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.</td>
     <td>ISO</td>
   </tr>
@@ -28,6 +28,11 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td><a href='data_elements/Definition.md' title='Defintion Text Details'>Defintion Text</a></td>
     <td>The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.</td>
     <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/DataTypeCode.md' title='Data Type Code Details'>Data Type Code</a></td>
+    <td>The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element.</td>
+    <td>?</td>
   </tr>
   <tr>
     <td><a href='data_elements/MinimumLengthNumber.md' title='Minimum Length Number Details'>Minimum Length Number</a></td>
@@ -43,6 +48,31 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td><a href='data_elements/PatternText.md' title='Pattern Text Details'>Pattern Text</a></td>
     <td>Pattern is a constraint on the ·value space· of a datatype which is achieved by constraining the lexical space to literals which match a specific pattern. The value of pattern must be a regular expression.</td>
     <td>W3C</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/AdministrativeStatusCode.md' title='Administrative Status Code Details'>Administrative Status Code</a></td>
+    <td>Designation of the status in the administrative life-cycle of a data element.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/CreationDate.md' title='Creation Date Details'>Creation Date</a></td>
+    <td>Date the element was created by the Data Steward.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/VersionIdentifier.md' title='Version Identifier Details'>Version Identifier</a></td>
+    <td>The unique version identifier of a data element</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/DataStewardName.md' title='Data Steward Name Details'>Data Steward Name</a></td>
+    <td>A person delegated the responsibility for managing a data element.</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/BusinessOwnerName.md' title='Business Owner Name Details'>Business Owner Name</a></td>
+    <td>The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified.</td>
+    <td>?</td>
   </tr>
 </table>
 

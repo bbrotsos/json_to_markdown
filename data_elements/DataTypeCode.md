@@ -1,0 +1,2 @@
+#Data Type Code Profile
+Description: The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element.
