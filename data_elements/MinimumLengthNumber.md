@@ -1,0 +1,2 @@
+#Minimum Length Number Profile
+Description: Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger.

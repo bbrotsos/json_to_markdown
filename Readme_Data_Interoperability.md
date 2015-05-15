@@ -29,6 +29,21 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td>The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.</td>
     <td>ISO</td>
   </tr>
+  <tr>
+    <td><a href='data_elements/MinimumLengthNumber.md' title='Minimum Length Number Details'>Minimum Length Number</a></td>
+    <td>Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger.</td>
+    <td>W3C</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/MaximumLengthNumber.md' title='Maximum Length Number Details'>Maximum Length Number</a></td>
+    <td>Maximum Length Number maxLength is the maximum number of units of length, where units of length varies depending on the type that is being derived from. The value of maxLength must be a nonNegativeInteger.</td>
+    <td>W3C</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/PatternText.md' title='Pattern Text Details'>Pattern Text</a></td>
+    <td>Pattern is a constraint on the ·value space· of a datatype which is achieved by constraining the lexical space to literals which match a specific pattern. The value of pattern must be a regular expression.</td>
+    <td>W3C</td>
+  </tr>
 </table>
 
 ## sources
