@@ -41,7 +41,11 @@ def elementToPage(dataElement):
         profilePage = profilePage + tableString
     else:
         tableString = "<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr>"
-        tableString = tableString + "<tr><td>Data Type Code</td><td>" + dataElement["data_type_code"] + "</td>"
+        tableString = tableString + "<tr><td><a href='DataTypeCode.md'>Data Type Code</a></td><td>" + dataElement["data_type_code"] + "</td></tr>"
+        tableString = tableString + "<tr><td><a href='MinimumLengthNumber.md'>Minimum Length Number</a></td><td>" + str(dataElement["min_length"]) + "</td></tr>"
+        tableString = tableString + "<tr><td><a href='MaximumLengthNumber.md'>Maximum Length Number</a></td><td>" + str(dataElement["max_length"]) + "</td></tr>"
+        tableString = tableString + "<tr><td><a href='RepresentationClassCode.md'>Representation Class Code</a></td><td>" + dataElement["representation_class"] + "</td></tr>"
+
         tableString = tableString + "</table>"
         profilePage = profilePage + tableString
         

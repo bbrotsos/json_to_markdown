@@ -1,2 +1,2 @@
 #Value Definition Profile
-Description: The definition for this permissible value of the domain.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>
+Description: The definition for this permissible value of the domain.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td><a href='DataTypeCode.md'>Data Type Code</a></td><td>Character</td></tr><tr><td><a href='MinimumLengthNumber.md'>Minimum Length Number</a></td><td>0</td></tr><tr><td><a href='MaximumLengthNumber.md'>Maximum Length Number</a></td><td>255</td></tr><tr><td><a href='RepresentationClassCode.md'>Representation Class Code</a></td><td>Text</td></tr></table>
