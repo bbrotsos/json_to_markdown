@@ -35,6 +35,16 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td>?</td>
   </tr>
   <tr>
+    <td><a href='data_elements/ValueItem.md' title='Value Item Details'>Value Item</a></td>
+    <td>A permissible value for this domain.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/ValueDefinition.md' title='Value Definition Details'>Value Definition</a></td>
+    <td>The definition for this permissible value of the domain.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
     <td><a href='data_elements/MinimumLengthNumber.md' title='Minimum Length Number Details'>Minimum Length Number</a></td>
     <td>Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger.</td>
     <td>W3C</td>

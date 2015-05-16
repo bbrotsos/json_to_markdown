@@ -135,6 +135,18 @@
     	    "definition": "The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element."
     	},
     	{
+    	    "page_name": "ValueItem",
+    	    "name": "Value Item",
+    	    "source": "ISO",
+    	    "definition": "A permissible value for this domain."
+    	},
+    	{
+    	    "page_name": "ValueDefinition",
+    	    "name": "Value Definition",
+    	    "source": "ISO",
+    	    "definition": "The definition for this permissible value of the domain."
+    	},
+    	{
     		"page_name": "MinimumLengthNumber",
     		"name": "Minimum Length Number",
     		"source": "W3C",
