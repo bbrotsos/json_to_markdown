@@ -32,7 +32,7 @@ def elementToPage(dataElement):
     profilePage = profilePage + "Description: " + dataElement["definition"]
     if "enumeration" in dataElement:
         tableString = "<table>\n"
-        tableString = tableString + "<thead><tr><th scope='col'><a href='data_elements/ValueItem.md'>Value Item</a></th><th scope='col'><a href='data_elements/ValueMeaning.md'>Value Meaning</a></th></tr></thead>"  
+        tableString = tableString + "<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueMeaning.md'>Value Meaning</a></th></tr></thead>"  
     	for enumeratedValue in dataElement["enumeration"]:
     	     tableString = tableString + enumeratedValueToTable(enumeratedValue)
         
