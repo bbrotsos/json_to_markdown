@@ -1,2 +1,2 @@
 #Defintion Text Profile
-Description: The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.
+Description: The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

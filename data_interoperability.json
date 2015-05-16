@@ -4,11 +4,19 @@
             "page_name": "ObjectClass",
             "name": "Object Class",
             "source": "ISO",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
             "definition": "Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules."
         },
         {
             "page_name": "Property",
             "name": "Property",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
             "source": "ISO",
             "definition": "A property may be any feature that humans naturally use to distinguish one individual object from another. It is the human perception of a single quality of an object class in the real world."
         },
@@ -16,6 +24,10 @@
             "page_name": "RepresentationClass",
             "name": "Representation Class Code",
             "source": "ISO",
+            "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
             "definition": "The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.", 
             "enumeration": [
                 {
@@ -103,12 +115,20 @@
     	{
     	    "page_name": "Definition",
     	    "name": "Defintion Text",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
     	    "source": "ISO",
     	    "definition": "The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text."
     	},
     	{
     	    "page_name": "DataTypeCode",
     	    "name": "Data Type Code",
+    	    "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
     	    "source": "?",
     	    "enumeration": [
                 {
@@ -137,36 +157,58 @@
     	{
     	    "page_name": "ValueItem",
     	    "name": "Value Item",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
     	    "source": "ISO",
     	    "definition": "A permissible value for this domain."
     	},
     	{
     	    "page_name": "ValueDefinition",
     	    "name": "Value Definition",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
     	    "source": "ISO",
     	    "definition": "The definition for this permissible value of the domain."
     	},
     	{
     		"page_name": "MinimumLengthNumber",
     		"name": "Minimum Length Number",
+    		"data_type_code": "Integer",
+            "representation_class": "Numer",
+            "min_length": 0,
+            "max_length": 26,
     		"source": "W3C",
     		"definition": "Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger."
     	},
     	{
     		"page_name": "MaximumLengthNumber",
     		"name": "Maximum Length Number",
+    		"data_type_code": "Integer",
+            "representation_class": "Numer",
+            "min_length": 0,
+            "max_length": 16,
     		"source": "W3C",
     		"definition": "Maximum Length Number maxLength is the maximum number of units of length, where units of length varies depending on the type that is being derived from. The value of maxLength must be a nonNegativeInteger."
     	},
     	{
     	    "page_name": "PatternText",
     	    "name": "Pattern Text",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
     	    "source": "W3C",
     	    "definition": "Pattern is a constraint on the ·value space· of a datatype which is achieved by constraining the lexical space to literals which match a specific pattern. The value of pattern must be a regular expression."
         },
         {
             "page_name": "AdministrativeStatusCode",
             "name": "Administrative Status Code",
+            "data_type_code": "Enumerated",
+            "representation_class": "Text",
             "source": "ISO",
              "enumeration": [
                 {
@@ -207,24 +249,40 @@
         {
             "page_name": "CreationDate",
             "name": "Creation Date",
+            "data_type_code": "Date",
+            "min_length": 9,
+            "max_length": 9,
+            "representation_class": "Date",
             "source": "ISO",
             "definition": "Date the element was created by the Data Steward."
         },
         {
             "page_name": "VersionIdentifier",
             "name": "Version Identifier",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Identifier",
             "source": "?",
             "definition": "The unique version identifier of a data element"
         },
         {
         	"page_name": "DataStewardName",
         	"name": "Data Steward Name",
+        	"data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
         	"source": "?",
         	"definition": "A person delegated the responsibility for managing a data element."
         },
         {
             "page_name": "BusinessOwnerName",
             "name": "Business Owner Name",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
             "source": "?",
             "definition": "The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified."
         }

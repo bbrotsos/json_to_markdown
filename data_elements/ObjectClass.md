@@ -1,2 +1,2 @@
 #Object Class Profile
-Description: Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules.
+Description: Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

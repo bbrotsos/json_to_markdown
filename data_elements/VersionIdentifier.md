@@ -1,2 +1,2 @@
 #Version Identifier Profile
-Description: The unique version identifier of a data element
+Description: The unique version identifier of a data element<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

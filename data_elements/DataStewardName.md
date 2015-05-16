@@ -1,2 +1,2 @@
 #Data Steward Name Profile
-Description: A person delegated the responsibility for managing a data element.
+Description: A person delegated the responsibility for managing a data element.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

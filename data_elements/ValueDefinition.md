@@ -1,2 +1,2 @@
 #Value Definition Profile
-Description: The definition for this permissible value of the domain.
+Description: The definition for this permissible value of the domain.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

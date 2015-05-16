@@ -1,2 +1,2 @@
 #Business Owner Name Profile
-Description: The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified.
+Description: The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

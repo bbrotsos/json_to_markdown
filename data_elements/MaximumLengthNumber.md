@@ -1,2 +1,2 @@
 #Maximum Length Number Profile
-Description: Maximum Length Number maxLength is the maximum number of units of length, where units of length varies depending on the type that is being derived from. The value of maxLength must be a nonNegativeInteger.
+Description: Maximum Length Number maxLength is the maximum number of units of length, where units of length varies depending on the type that is being derived from. The value of maxLength must be a nonNegativeInteger.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Integer</td></table>

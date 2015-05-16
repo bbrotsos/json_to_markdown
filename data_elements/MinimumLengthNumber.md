@@ -1,2 +1,2 @@
 #Minimum Length Number Profile
-Description: Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger.
+Description: Minimum Length Number is the minimum number of units of length, where units of length varies depending on the type that is being derived from. The value of minLength must be a nonNegativeInteger.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Integer</td></table>

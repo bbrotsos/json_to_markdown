@@ -39,6 +39,11 @@ def elementToPage(dataElement):
         
         tableString = tableString + "</table>"
         profilePage = profilePage + tableString
+    else:
+        tableString = "<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr>"
+        tableString = tableString + "<tr><td>Data Type Code</td><td>" + dataElement["data_type_code"] + "</td>"
+        tableString = tableString + "</table>"
+        profilePage = profilePage + tableString
         
     dataElementProfilePage = open(default_directory + "/" + dataElement["page_name"] + ".md", "w")
     dataElementProfilePage.write(profilePage)

@@ -1,2 +1,2 @@
 #Value Item Profile
-Description: A permissible value for this domain.
+Description: A permissible value for this domain.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Character</td></table>

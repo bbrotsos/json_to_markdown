@@ -1,2 +1,2 @@
 #Creation Date Profile
-Description: Date the element was created by the Data Steward.
+Description: Date the element was created by the Data Steward.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td>Data Type Code</td><td>Date</td></table>
