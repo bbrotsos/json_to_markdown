@@ -3,6 +3,7 @@ This takes in a json file and outputs the data elements in markdown.
 
 Scripting this for universal changes
 
+
 '''
 
 import json
@@ -32,7 +33,7 @@ def elementToPage(dataElement):
     profilePage = profilePage + "Description: " + dataElement["definition"]
     if "enumeration" in dataElement:
         tableString = "<table>\n"
-        tableString = tableString + "<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueMeaning.md'>Value Meaning</a></th></tr></thead>"  
+        tableString = tableString + "<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueDefinition.md'>Value Meaning</a></th></tr></thead>"  
     	for enumeratedValue in dataElement["enumeration"]:
     	     tableString = tableString + enumeratedValueToTable(enumeratedValue)
         
