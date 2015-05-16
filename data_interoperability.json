@@ -25,6 +25,78 @@
                 {
                     "value_item": "Code",
                     "value_definition": "An enumerated list of all allowable values. Each enumerated value is a string that for brevity represents a specific meaning."
+                },
+                {
+                    "value_item": "Count",
+                    "value_definition": "Non-monetary numeric value arrived at by counting."
+                },
+                {
+                    "value_item": "Date",
+                    "value_definition": "An ISO 8601 date usually in the format CCYY-MM-DD."
+                },
+                {
+                    "value_item": "DateTime",
+                    "value_definition": "An ISO 8601 date (in the format CCYY-MM-DD) and time structure. Note: Do not use unless both the date and time are required fields. If one or the other is optional always specify the data elements as separate date and time elements."
+                },
+                {
+                    "value_item": "Description",
+                    "value_definition": "A text field used to describe or define something."
+                },
+                {
+                    "value_item": "Graphic",
+                    "value_definition": "Diagrams, graphs, mathematical curves, or the like, usually a vector image"
+                },
+                {
+                    "value_item": "Icon",
+                    "value_definition": "A sign or representation that stands for its object by virtue of a resemblance or analogy to it."
+                },
+                {
+                    "value_item": "Identifier",
+                    "value_definition": "A language-independent label, sign or token used to establish identity of, and uniquely distinguish one instance of an object within an identification scheme."
+                },
+                {
+                    "value_item": "Indicator",
+                    "value_definition": "Boolean, exactly two mutually exclusive values (true or false). A precise definition must be given for the meaning of a true value."
+                },
+                {
+                    "value_item": "Measure",
+                    "value_definition": "Numeric value determined by measurement with units. Typically used with items such as height or weight.  If the unit of measure is not clear it should be specified"
+                },
+                {
+                    "value_item": "Name",
+                    "value_definition": "A textual label used as identification of an object.  A name is usually meaningful in some language, and is the primary means of identification of objects for humans. Unlike an identifier, a name is not necessarily unique."
+                },
+                {
+                    "value_item": "Number",
+                    "value_definition": "Assigned or determined by calculation."
+                },
+                {
+                    "value_item": "Percent",
+                    "value_definition": "A type of Numeric that traditionally is the results of a ratio calculation that ranges from values of 0 to 1 for values of 0% to 100%."
+                },
+                {
+                    "value_item": "Picture",
+                    "value_definition": "A visual representation of a person, object, or scene, usually a raster image."
+                },
+                {
+                    "value_item": "Quantity",
+                    "value_definition": "A continuous number such as the linear dimensions, capacity/amount (non-monetary) of an object."
+                },
+                {
+                    "value_item": "Rate",
+                    "value_definition": "A type of numeric."
+                },
+                {
+                    "value_item": "Text",
+                    "value_definition": "Character string generally in the form of words."
+                },
+                {
+                    "value_item": "Time",
+                    "value_definition": "Time of day or duration, e.g. HH:MM:SS.SSSS."
+                },
+                {
+                    "value_item": "Year",
+                    "value_definition": "An ISO 8601 Year."
                 }
             ]
     	},
