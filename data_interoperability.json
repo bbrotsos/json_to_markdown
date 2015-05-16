@@ -168,6 +168,40 @@
             "page_name": "AdministrativeStatusCode",
             "name": "Administrative Status Code",
             "source": "ISO",
+             "enumeration": [
+                {
+                    "value_item": "Incomplete",
+                    "value_definition": "Initial submission to make community of interest aware of its existence."
+                },
+                {
+                    "value_item": "Candidate",
+                    "value_definition": "Being proposed for progression through registration levels.  Not all mandatory attributes are present."
+                },
+                {
+                    "value_item": "Qualified",
+                    "value_definition": "Quality and mandatory checks are complete.  Still requires formal cross-functional review."
+                },
+                {
+                    "value_item": "Standard",
+                    "value_definition": "Metadata item is approved for use"
+                },
+                {
+                    "value_item": "Superseded",
+                    "value_definition": "Metadata item is no longer recommended for use and a successor item is now preferred for use."
+                },
+                {
+                    "value_item": "Retired",
+                    "value_definition": "Metadata item is no longer recommended for use"
+                },
+                {
+                    "value_item": "Application",
+                    "value_definition": "Metadata item exists locally in an application system and is not specified at the logical level."
+                },
+                {
+                    "value_item": "Historical",
+                    "value_definition": "The metadata item is no longer in use."
+                }
+            ],
             "definition": "Designation of the status in the administrative life-cycle of a data element."
         },
         {
