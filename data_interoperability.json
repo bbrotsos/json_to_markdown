@@ -117,21 +117,21 @@
                 },
                 {
                     "value_item": "Character",
-                    "value_definition": "Characters are classified for convenience as letters, digits, or other characters. A character is an atomic unit of text as specified by ISO/IEC 10646.",
+                    "value_definition": "Characters are classified for convenience as letters, digits, or other characters. A character is an atomic unit of text as specified by ISO/IEC 10646."
                 },
                 {
                     "value_item": "Boolean",
-                    "value_definition": "Boolean has the value space required to support the mathematical concept of binary-valued logic: {true, false}.",
+                    "value_definition": "Boolean has the value space required to support the mathematical concept of binary-valued logic: {true, false}."
                 },
                 {
                     "value_item": "Enumerated",
-                    "value_definition": "The value space of a list datatype is a set of finite-length sequences of atomic values. The enumeration is a set of values from the value space.",
+                    "value_definition": "The value space of a list datatype is a set of finite-length sequences of atomic values. The enumeration is a set of values from the value space."
                 },
                 {
                     "value_item": "Date-and-Time",
-                    "value_definition": "The value space of Date-Time is closely related to the dates and times described in ISO 8601. Date-Time values may be viewed as objects with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property",
+                    "value_definition": "The value space of Date-Time is closely related to the dates and times described in ISO 8601. Date-Time values may be viewed as objects with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property"
                 }
-            ]
+            ],
     	    "definition": "The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element."
     	},
     	{
