@@ -12,5 +12,5 @@ Not in ISO:
 * Don’t use Organization Names
 * Don’t use Acronyms 
 * Don’t use System Names
-* Don’t use prepositions or conjunctions (You can break this sometimes)
+* Don’t use prepositions or conjunctions (You can break this sometimes eg Unit of Measure)
 
