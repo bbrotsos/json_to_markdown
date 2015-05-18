@@ -123,6 +123,16 @@
             ]
     	},
     	{
+    	    "page_name": "QualifierText",
+    	    "name": "Qualifier Text",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
+    	    "source": "ISO",
+    	    "definition": "Qualifier terms may be attached to object class terms, property terms, and representation terms if necessary to distinguish one data element concept, conceptual domain, data element, or data value domain from another. These qualifier terms may be derived from structure sets specific to a context. In the rules for a naming convention, a restriction in the number of qualifier terms is recommended."
+    	},
+    	{
     	    "page_name": "Definition",
     	    "name": "Defintion Text",
     	    "data_type_code": "Character",

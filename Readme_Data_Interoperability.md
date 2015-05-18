@@ -32,6 +32,11 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
     <td>ISO</td>
   </tr>
   <tr>
+    <td><a href='data_elements/QualifierText.md' title='Qualifier Text Details'>Qualifier Text</a></td>
+    <td>Qualifier terms may be attached to object class terms, property terms, and representation terms if necessary to distinguish one data element concept, conceptual domain, data element, or data value domain from another. These qualifier terms may be derived from structure sets specific to a context. In the rules for a naming convention, a restriction in the number of qualifier terms is recommended.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
     <td><a href='data_elements/Definition.md' title='Defintion Text Details'>Defintion Text</a></td>
     <td>The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.</td>
     <td>ISO</td>
