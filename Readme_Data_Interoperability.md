@@ -1,8 +1,8 @@
 # data_interoperability
 Research and development workspace for testing json-ld with Metadata Vocabulary for Tabular Data, Swagger, 11179, etc.  
 
-<a href="definition_best_practices.md">Data Definition Best Practices</a>
-<a href="data_element_best_practices.md">Data Element Naming Best Practices</a>
+<a href="definition_best_practices.md">Data Definition Best Practices</a>  
+<a href="data_element_best_practices.md">Data Element Naming Best Practices</a>  
 
 <table>
   <thead>
@@ -12,6 +12,11 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
       <th scope="col">Source</th>
     </tr>
   </thead>  <tr>
+    <td><a href='data_elements/Context.md' title='Context Details'>Context</a></td>
+    <td>A Context defines the setting within which the subject data has meaning. A Context may be a business domain, an information subject area, an information system, a database, file, data model, standard document, or any other environment determined by the stewardardship organization (3.2.127) responsible for the Context, or the registration authority (3.2.109) responsible for the registry.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
     <td><a href='data_elements/ObjectClass.md' title='Object Class Details'>Object Class</a></td>
     <td>Set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behaviour follow the same rules.</td>
     <td>ISO</td>
