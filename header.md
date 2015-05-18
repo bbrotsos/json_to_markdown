@@ -10,8 +10,13 @@ through 100s of data assets and 1000s of data element, an architect or researche
 the requirements and documentation on data.  The average
 developer does not face this problem, so it is difficult showing the business benefit to application developers.
 
-2. Current documentation is rooted in library science and computer science and can be inaccessible to the
-average developer.  There's a steep learning curve to get up to speed with minimal immediate benefit.
+2. There's a steep learning curve to get up to speed with minimal immediate benefit.
+
+Data Element: Unit of data that is considered in context to be indivisible.
+
+A Data Element is considered to be a basic unit of data of interest to an organization. It is a unit of data for which the definition, identification, representation, and permissible values 
+are specified by means of a set of attributes. A Data Element is formed when a Data Element Concept is assigned a representation. One of the key components of a representation is the Value Domain, i.e., restricted valid values.
+
 
 <table>
   <thead>

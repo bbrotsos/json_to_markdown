@@ -175,6 +175,37 @@
     	    "definition": "The format used for the collection of letters, digits, and/or symbols, to depict values of a data element, determined by the operations that may be performed on a data element."
     	},
     	{
+    	    "page_name": "Precision",
+    	    "name": "Precision Number",
+    	    "data_type_code": "Integer",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Number",
+    	    "source": "ISO",
+    	    "definition": "The number of decimal places permitted in any associated data element values"
+    	},
+    	{
+    	    "page_name": "ClassificationScheme",
+    	    "name": "Classification Scheme",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
+    	    "source": "ISO",
+    	    "definition": "Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common"
+    	},
+    	    	{
+    	    "page_name": "ValueDomain",
+    	    "name": "Value Domain",
+    	    "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
+    	    "source": "ISO",
+    	    "comments": "An example of a conceptual domain and a set of value domains is ISO 3166, Codes for the representation of names of countries. For instance, ISO 3166 describes the set of seven value domains: short name in English, official name in English, short name in French, official name in French, alpha-2 code, alpha-3 code, and numeric code.  Additional examples of value domains are: -Sex, which contains two designations (permissible values), M -> Male and F-> Female; -Parent, which contains two designations (permissible values), M -> Mother and F -> Father.",
+    	    "definition": "Value Domain is a class each instance of which models a value domain, a collection of permissible values. A value domain provides representation, but has no implication as to what data element concept the values are associated with, nor what the values mean. Permissible values are designations, bindings of signs (values) to their corresponding value meanings"
+    	},
+    	{
     	    "page_name": "ValueItem",
     	    "name": "Value Item",
     	    "data_type_code": "Character",
@@ -277,6 +308,16 @@
             "definition": "Date the element was created by the Data Steward."
         },
         {
+            "page_name": "EndDate",
+            "name": "End Date",
+            "data_type_code": "Date",
+            "min_length": 9,
+            "max_length": 9,
+            "representation_class": "Date",
+            "source": "ISO",
+            "definition": "Date the element will be decommissioned by the Data Steward."
+        },
+        {
             "page_name": "VersionIdentifier",
             "name": "Version Identifier",
             "data_type_code": "Character",
@@ -285,6 +326,16 @@
             "representation_class": "Identifier",
             "source": "?",
             "definition": "The unique version identifier of a data element"
+        },
+        {
+            "page_name": "Reference Document",
+            "name": "Reference Document",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Composite",
+            "source": "ISO",
+            "definition": "A Reference Document is a document that provides pertinent details for consultation about a subject."
         },
         {
         	"page_name": "DataStewardName",

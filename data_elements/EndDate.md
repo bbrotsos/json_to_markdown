@@ -1,0 +1,2 @@
+#End Date Profile
+Description: Date the element will be decommissioned by the Data Steward.<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td><a href='DataTypeCode.md'>Data Type Code</a></td><td>Date</td></tr><tr><td><a href='MinimumLengthNumber.md'>Minimum Length Number</a></td><td>9</td></tr><tr><td><a href='MaximumLengthNumber.md'>Maximum Length Number</a></td><td>9</td></tr><tr><td><a href='RepresentationClass.md'>Representation Class Code</a></td><td>Date</td></tr></table>

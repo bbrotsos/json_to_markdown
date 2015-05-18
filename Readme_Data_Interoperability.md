@@ -10,8 +10,13 @@ through 100s of data assets and 1000s of data element, an architect or researche
 the requirements and documentation on data.  The average
 developer does not face this problem, so it is difficult showing the business benefit to application developers.
 
-2. Current documentation is rooted in library science and computer science and can be inaccessible to the
-average developer.  There's a steep learning curve to get up to speed with minimal immediate benefit.
+2. There's a steep learning curve to get up to speed with minimal immediate benefit.
+
+Data Element: Unit of data that is considered in context to be indivisible.
+
+A Data Element is considered to be a basic unit of data of interest to an organization. It is a unit of data for which the definition, identification, representation, and permissible values 
+are specified by means of a set of attributes. A Data Element is formed when a Data Element Concept is assigned a representation. One of the key components of a representation is the Value Domain, i.e., restricted valid values.
+
 
 <table>
   <thead>
@@ -56,6 +61,21 @@ average developer.  There's a steep learning curve to get up to speed with minim
     <td>?</td>
   </tr>
   <tr>
+    <td><a href='data_elements/Precision.md' title='Precision Number Details'>Precision Number</a></td>
+    <td>The number of decimal places permitted in any associated data element values</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/ClassificationScheme.md' title='Classification Scheme Details'>Classification Scheme</a></td>
+    <td>Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/ValueDomain.md' title='Value Domain Details'>Value Domain</a></td>
+    <td>Value Domain is a class each instance of which models a value domain, a collection of permissible values. A value domain provides representation, but has no implication as to what data element concept the values are associated with, nor what the values mean. Permissible values are designations, bindings of signs (values) to their corresponding value meanings</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
     <td><a href='data_elements/ValueItem.md' title='Value Item Details'>Value Item</a></td>
     <td>A permissible value for this domain.</td>
     <td>ISO</td>
@@ -91,9 +111,19 @@ average developer.  There's a steep learning curve to get up to speed with minim
     <td>ISO</td>
   </tr>
   <tr>
+    <td><a href='data_elements/EndDate.md' title='End Date Details'>End Date</a></td>
+    <td>Date the element will be decommissioned by the Data Steward.</td>
+    <td>ISO</td>
+  </tr>
+  <tr>
     <td><a href='data_elements/VersionIdentifier.md' title='Version Identifier Details'>Version Identifier</a></td>
     <td>The unique version identifier of a data element</td>
     <td>?</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/Reference Document.md' title='Reference Document Details'>Reference Document</a></td>
+    <td>A Reference Document is a document that provides pertinent details for consultation about a subject.</td>
+    <td>ISO</td>
   </tr>
   <tr>
     <td><a href='data_elements/DataStewardName.md' title='Data Steward Name Details'>Data Steward Name</a></td>

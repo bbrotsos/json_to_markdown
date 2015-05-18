@@ -2,6 +2,9 @@
 
 _copied from iso 11179_
 
+The most important thing on data definition is that you use complete sentences from the business perspective.
+These rules are good guidance to get there.
+
 **A data definition shall:**  
 a) [be stated in the singular](#singular)  
 b) [state what the concept is, not only what it is not](#concept)  
