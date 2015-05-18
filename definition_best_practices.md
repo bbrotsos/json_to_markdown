@@ -4,23 +4,23 @@ _copied from iso 11179_
 
 **A data definition shall:**  
 a) [be stated in the singular](#singular)  
-b) [link state what the concept is, not only what it is not](#concept)  
-c) [link be stated as a descriptive phrase or sentence(s)](#descriptive) 
-d) [link contain only commonly understood abbreviations](#abbreviations)    
-e) [link be expressed without embedding definitions of other data or underlying concepts](#embed)  
+b) [state what the concept is, not only what it is not](#concept)  
+c) [be stated as a descriptive phrase or sentence(s)](#descriptive)   
+d) [contain only commonly understood abbreviations](#abbreviations)    
+e) [be expressed without embedding definitions of other data or underlying concepts](#embed)  
 
 **A data definition should:**  
-a) [link state the essential meaning of the concept](#meaning)  
-b) [link be precise and unambiguous](#precise)  
-c) [link be concise](#concise) 
-d) [link be able to stand alone](#standalone)  
-e) [link be expressed without embedding rationale, functional usage, or procedural information](#embed)  
-f) [link avoid circular Reasoning](#circular)  
-g) [link use the same terminology and consistent logical structure for related definitions](#consistent)  
-h) [link be appropriate for the type of metadata item being defined](#appropriate)  
+a) [state the essential meaning of the concept](#meaning)  
+b) [be precise and unambiguous](#precise)  
+c) [be concise](#concise)   
+d) [be able to stand alone](#standalone)  
+e) [be expressed without embedding rationale, functional usage, or procedural information](#embed)  
+f) [avoid circular Reasoning](#circular)  
+g) [use the same terminology and consistent logical structure for related definitions](#consistent)  
+h) [be appropriate for the type of metadata item being defined](#appropriate)  
 
 <a name="singular"></a>
-##Singular 
+##Be stated in the singular
 
 The concept expressed by the data definition shall be expressed in the singular. (An exception is made if the concept itself is plural.)  
 Example - “Article Number”  
@@ -31,7 +31,7 @@ Example - “Article Number”
 Reason - The poor definition uses the plural word “articles,” which is ambiguous, since it could imply that an “article number” refers to more than one article.  
 
 <a name="concept"></a>
-##Concept
+##State what the concept is, not only what it is not
 When constructing definitions, the concept cannot be defined exclusively by stating what the concept is not.
 
 Example - “Freight Cost Amount”
@@ -42,7 +42,7 @@ Example - “Freight Cost Amount”
 Reason- The poor definition does not specify what is included in the meaning of the data.
 
 <a name="descriptive">
-##Descriptive
+##Be stated as a descriptive phrase or sentence(s)
 A phrase is necessary (in most languages) to form a precise definition that includes the essential characteristics of the concept. Simply stating one or more synonym(s) is insufficient. Simply restating the words of the name in a different order is insufficient. If more than a descriptive phrase is needed, use complete, grammatically correct sentences.  
 
 Example - “Agent Name”  
@@ -53,7 +53,7 @@ Example - “Agent Name”
 Reason - “Representative” is a near-synonym of the data element name, which is not adequate for a definition.
 
 <a name="abbreviations"></a>
-##Abbreviations
+##Contain only commonly understood abbreviations
 Understanding the meaning of an abbreviation, including acronyms and initialisms, is usually confined to a certain environment. In other environments the same abbreviation can cause misinterpretation or confusion. Therefore, to avoid ambiguity, full words, not abbreviations, shall be used in the definition.  
 
 Exceptions to this requirement may be made if an abbreviation is commonly understood such as “i.e.” and “e.g.” or if an abbreviation is more readily understood than the full form of a complex term and has been adopted as a term in its own right such as “radar” standing for “radio detecting and ranging.”  
