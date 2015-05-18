@@ -3,7 +3,7 @@
 _copied from iso 11179_
 
 **A data definition shall:**  
-a) [link be stated in the singular](#singular)  
+a) [be stated in the singular](#singular)  
 b) [link state what the concept is, not only what it is not](#concept)  
 c) [link be stated as a descriptive phrase or sentence(s)](#descriptive) 
 d) [link contain only commonly understood abbreviations](#abbreviations)    
