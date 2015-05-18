@@ -181,18 +181,23 @@ Reason - Using the same terminology and syntax facilitates understanding. Otherw
 ##Be appropriate for the type of metadata item being defined
 Different types of metadata item in a metadata registry (e.g. data element concept, data element, conceptual domain, value domain) each play a different role and this should be reflected in the definitions.
 Example –
-Data element concept: “Job Grade Maximum Salary Amount”
 ```
+Data element concept: “Job Grade Maximum Salary Amount”
 Definition: The maximum salary permitted for the associated job grade.
 Note: The data element concept makes no reference to a specific value domain.
+```
+```
 Conceptual Domain: “Monetary amount”
 Definition: An amount that may be expressed in a unit of currency.
 Note: The definition refers to a “dimensionality” of currency, but not to a specific currency.
+```
+```
 Data element 1": “European Job Grade Maximum Salary Amount”
 Definition: The maximum salary permitted for the associated job grade expressed in Euros. Data element 2": “U.S. Job Grade Maximum Salary Amount”
 Definition: The maximum salary permitted for the associated job grade expressed in US dollars.
 Note: Data element definitions may refer to explicit values domains, since this may be all that distinguishes two data elements.
 ```
+
 ##sources
 
 1. <a href="http://metadata-standards.org/11179/">Metadata Registries: Registry metamodel and basic attributes, ISO 11179-3</a>
