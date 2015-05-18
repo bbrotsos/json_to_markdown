@@ -10,7 +10,7 @@ through 100s of data assets and 1000s of data element, an architect or researche
 the requirements and documentation on data.  The average
 developer does not face this problem, so it is difficult showing the business benefit to application developers.
 
-2. There's a steep learning curve to get up to speed with minimal immediate benefit.
+2. There's a steep learning curve for average developer to get up to speed with minimal immediate benefit.
 
 Data Element: Unit of data that is considered in context to be indivisible.
 
