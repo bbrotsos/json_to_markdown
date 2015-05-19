@@ -59,7 +59,7 @@ Representation terms categorize forms of representation such as
 * Quantity
 * Amount
 * Number 
-* Text
+* Text  
 This term describes the form of the set of valid values of an administered item which includes representation. Often, the representation term may be redundant with part of the property term. When this occurs, one term or part of one term may be eliminated in a structured name. This can be established as a rule in a naming convention.
 
 Using the above rules, a data element describing a measurement of the height of a tree would have the data element name Tree Height Measure. The word Measure is the data element’s representation term. However, a data element that describes the last name of a person would have the data element name of Person Last Name Name. The second word Name is the data element’s representation term. However, to promote clarity, one occurrence of the redundant word is removed.
@@ -71,3 +71,21 @@ Qualifier terms may be attached to object class terms, property terms, and repre
 For example, in the data element name Cost Budget Period Total Amount the term Budget Period is a qualifier term.
 
 Note: Limitations in the form of permitted terms of qualifiers help reduce redundancy and increase incidence of data reuse by eliminating synonyms. This applies also to object class terms, property terms, and representation terms. A mechanism such as a thesaurus of terms facilitates this effort.
+
+##Examples
+```
+Correct:  Employee Identifier
+Incorrect:  employee_identifier, EMPLOYEE_ID, EmployeeIdentifier
+```
+
+```
+Correct:  Birth Date
+Incorrect:  Date of Birth, DOB
+```
+
+```
+Correct:  Food Identifier
+Incorrect:  Food System Identifier, FNS Identifier, FSIS Identifier, Food
+```
+
+
