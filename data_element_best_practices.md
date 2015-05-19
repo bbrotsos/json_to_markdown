@@ -2,7 +2,7 @@
 
 _mostly copied from iso 11179_
 
-* Follow order [Qualifier](#qualifier) + [Object Class](object_class) + [Qualifier](#qualifier) + [Property](#property) + [Representation Term](#representation)
+* Follow order [Qualifier](#qualifier) + [Object Class](#object_class) + [Qualifier](#qualifier) + [Property](#property) + [Representation Term](#representation)
 * Independent of Technology – Use Business Terms with spaces
 * Nouns are used in singular form only. Verbs (if any) are in the present tense.
 * All names in each language shall be unique within this context.
@@ -14,7 +14,7 @@ _mostly copied from iso 11179_
 * Don’t use System Names
 * Don’t use prepositions or conjunctions (You can break this sometimes eg Unit of Measure)
 
-<a name="object_class"></a.>
+<a name="object_class"></a>
 ## Object Class Term
 
 In the MDR metamodel, an object class is a set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning, and whose properties and behaviour follow the same rules. Each object class has a name. The registration of object classes in a registry is optional, but if used, the set of actual and potential object class names provides a taxonomy of object class terms.  
