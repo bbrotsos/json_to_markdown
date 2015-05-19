@@ -168,6 +168,28 @@
                     "value_definition": "The value space of a list datatype is a set of finite-length sequences of atomic values. The enumeration is a set of values from the value space."
                 },
                 {
+                    "value_item": "Natural Range",
+                    "comment": "Note: Natural_Range is used as the type of both multiplicity (an attribute of Relation Roles) and arity (an attribute of Relations) in the Concepts metamodel region, but this in no way constrains how it may be used by a Registration Authority.",
+                    "value_definition": "Natural_Range is a datatype (3.1.8) comprising a range of “natural numbers“, i.e. the positive integers, including zero. Any instance of Natural_Range is one of: -a constant non-negative Integer -a bounded range of non-negative Integers defined by a minimum and a (strictly larger) maximum value -an unbounded range defined by only a non-negative minimum (e.g., 0..*, 1..*, 2..*)."
+                },
+                {
+                    "value_item": "Sign",
+                    "value_definition": "A sign may be a character string, graphic image, sound clip or other symbol that can be used to denote or designate a concept. The Sign datatype may be implemented using the Reflit(of_type) data structure (see ISO/IEC19773:2011 10.4.2), where the list of supported types is implementation defined. At a minimum, datatype String must be supported."
+                },
+                {
+                    "value_item": "String",
+                    "value_definition": "String is a family of datatypes which represent strings of symbols from standard character-sets. The syntax and semantics of the String datatype are as defined in ISO/IEC 11404:2007 10.1.5 Character String."
+                },
+                {
+                    "value_item": "Text",
+                    "comment": "Example: A business letter printed on paper or displayed on a screen.",
+                    "value_definition": "Text is data in the form of characters, symbols, words, phrases, paragraphs, sentences, tables, or other character arrangements, intended to convey a meaning, and whose interpretation is essentially based upon the reader's knowledge of some natural language or artificial language [ISO/IEC 2382-23:1994]."
+                },
+                {
+                    "value_item": "Value",
+                    "value_definition": "A Value represents any instance of any datatype."
+                },
+                {
                     "value_item": "Date-and-Time",
                     "value_definition": "The value space of Date-Time is closely related to the dates and times described in ISO 8601. Date-Time values may be viewed as objects with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property"
                 }
@@ -192,7 +214,7 @@
             "max_length": 255,
             "representation_class": "Name",
     	    "source": "ISO",
-    	    "definition": "Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common"
+    	    "definition": "Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common.  A classification scheme may be a taxonomy, a network, an ontology, or any other terminological system. The classification may also be just a list of controlled vocabulary of property words (or terms). The list might be taken from the 'leaf level' of a taxonomy."
     	},
     	    	{
     	    "page_name": "ValueDomain",
@@ -202,7 +224,7 @@
             "max_length": 255,
             "representation_class": "Name",
     	    "source": "ISO",
-    	    "comments": "An example of a conceptual domain and a set of value domains is ISO 3166, Codes for the representation of names of countries. For instance, ISO 3166 describes the set of seven value domains: short name in English, official name in English, short name in French, official name in French, alpha-2 code, alpha-3 code, and numeric code.  Additional examples of value domains are: -Sex, which contains two designations (permissible values), M -> Male and F-> Female; -Parent, which contains two designations (permissible values), M -> Mother and F -> Father.",
+    	    "comments": "An example of a conceptual domain and a set of value domains is ISO 3166, Codes for the representation of names of countries. For instance, ISO 3166 describes the set of seven value domains: short name in English, official name in English, short name in French, official name in French, alpha-2 code, alpha-3 code, and numeric code.  Additional examples of value domains are: Sex, which contains two designations (permissible values), M -> Male and F-> Female; Parent, which contains two designations (permissible values), M -> Mother and F -> Father.",
     	    "definition": "Value Domain is a class each instance of which models a value domain, a collection of permissible values. A value domain provides representation, but has no implication as to what data element concept the values are associated with, nor what the values mean. Permissible values are designations, bindings of signs (values) to their corresponding value meanings"
     	},
     	{
@@ -348,6 +370,16 @@
         	"definition": "A person delegated the responsibility for managing a data element."
         },
         {
+        	"page_name": "DataElementExample",
+        	"name": "Data Element Example",
+        	"data_type_code": "Property",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
+        	"source": "ISO",
+        	"definition": ""
+        },
+        {
             "page_name": "BusinessOwnerName",
             "name": "Business Owner Name",
             "data_type_code": "Character",
@@ -356,6 +388,26 @@
             "representation_class": "Name",
             "source": "?",
             "definition": "The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified."
+        }
+        {
+            "page_name": "ObligationCode",
+            "name": "ObligationCode",
+            "data_type_code": "",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "",
+            "source": "?",
+            "definition": "?  Mandatory, Conditional, Optional"
+        }
+        {
+            "page_name": "MultiplicityRage",
+            "name": "Multiplicity Range",
+            "data_type_code": "",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "",
+            "source": "?",
+            "definition": ""
         }
     ]
 }

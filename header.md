@@ -1,6 +1,8 @@
 # data_interoperability
 Research and development workspace for testing json-ld with Metadata Vocabulary for Tabular Data, Swagger, 11179, I/O Docs, REST Framework Docs, JSON API  etc.  
 
+Implementations may utilize technologies including, but not limited to: relational database, JSON-ld, XML database, object oriented systems, or RDF/OWL.
+
 <a href="definition_best_practices.md">Data Definition Best Practices</a>  
 <a href="data_element_best_practices.md">Data Element Naming Best Practices</a>  
 
