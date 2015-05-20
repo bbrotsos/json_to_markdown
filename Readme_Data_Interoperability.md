@@ -29,7 +29,7 @@ are specified by means of a set of attributes. A Data Element is formed when a D
     </tr>
   </thead>  <tr>
     <td><a href='data_elements/Context.md' title='Context Details'>Context</a></td>
-    <td>A Context defines the setting within which the subject data has meaning. A Context may be a business domain, an information subject area, an information system, a database, file, data model, standard document, or any other environment determined by the stewardardship organization (3.2.127) responsible for the Context, or the registration authority (3.2.109) responsible for the registry.</td>
+    <td>A Context defines the setting within which the subject data has meaning. A Context may be a business domain, an information subject area, an information system, a database, file, data model, standard document, or any other environment determined by the stewardardship organization responsible for the Context, or the registration authority responsible for the registry.</td>
     <td>ISO</td>
   </tr>
   <tr>

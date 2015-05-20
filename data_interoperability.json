@@ -8,7 +8,7 @@
             "min_length": 0,
             "max_length": 255,
             "representation_class": "Name",
-            "definition": "A Context defines the setting within which the subject data has meaning. A Context may be a business domain, an information subject area, an information system, a database, file, data model, standard document, or any other environment determined by the stewardardship organization (3.2.127) responsible for the Context, or the registration authority (3.2.109) responsible for the registry." 
+            "definition": "A Context defines the setting within which the subject data has meaning. A Context may be a business domain, an information subject area, an information system, a database, file, data model, standard document, or any other environment determined by the stewardardship organization responsible for the Context, or the registration authority responsible for the registry." 
         },        
         {
             "page_name": "ObjectClass",
