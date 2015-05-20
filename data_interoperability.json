@@ -388,7 +388,7 @@
             "representation_class": "Name",
             "source": "?",
             "definition": "The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified."
-        }
+        },
         {
             "page_name": "ObligationCode",
             "name": "ObligationCode",
@@ -398,7 +398,7 @@
             "representation_class": "",
             "source": "?",
             "definition": "?  Mandatory, Conditional, Optional"
-        }
+        },
         {
             "page_name": "MultiplicityRage",
             "name": "Multiplicity Range",

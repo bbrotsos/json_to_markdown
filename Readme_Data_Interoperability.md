@@ -1,6 +1,8 @@
 # data_interoperability
 Research and development workspace for testing json-ld with Metadata Vocabulary for Tabular Data, Swagger, 11179, I/O Docs, REST Framework Docs, JSON API  etc.  
 
+Implementations may utilize technologies including, but not limited to: relational database, JSON-ld, XML database, object oriented systems, or RDF/OWL.
+
 <a href="definition_best_practices.md">Data Definition Best Practices</a>  
 <a href="data_element_best_practices.md">Data Element Naming Best Practices</a>  
 
@@ -138,6 +140,16 @@ are specified by means of a set of attributes. A Data Element is formed when a D
   <tr>
     <td><a href='data_elements/BusinessOwnerName.md' title='Business Owner Name Details'>Business Owner Name</a></td>
     <td>The organization and contact within the organization that is responsible for the definition and other mandatory attributes by which the metadata item is specified.</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/ObligationCode.md' title='ObligationCode Details'>ObligationCode</a></td>
+    <td>?  Mandatory, Conditional, Optional</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td><a href='data_elements/MultiplicityRage.md' title='Multiplicity Range Details'>Multiplicity Range</a></td>
+    <td></td>
     <td>?</td>
   </tr>
 </table>

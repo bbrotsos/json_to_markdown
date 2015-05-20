@@ -44,8 +44,9 @@ In the data element names
 * Employee Last Name
 * Cost Budget Period Total Amount 
 * Member Last Name
-* Tree Height Measure
-the terms Last Name, Total Amount, and Height are properties.  
+* Tree Height Measure  
+
+The terms Last Name, Total Amount, and Height are properties.  
 
 Using terms from two structure sets provides a complementary way of categorization. Both object class and property terms of data element concepts and data elements are utilized to form a name that contains vital information about these administered items, and also excludes extraneous or irrational elements that may be introduced when no conventions are employed. Data element concept names may be composed by combining object class terms and property terms.
 
