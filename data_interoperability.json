@@ -140,7 +140,7 @@
             "max_length": 255,
             "representation_class": "Text",
     	    "source": "ISO",
-    	    "definition": "The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text."
+    	    "definition": "The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source for the text."
     	},
     	{
     	    "page_name": "DataTypeCode",
@@ -170,7 +170,7 @@
                 {
                     "value_item": "Natural Range",
                     "comment": "Note: Natural_Range is used as the type of both multiplicity (an attribute of Relation Roles) and arity (an attribute of Relations) in the Concepts metamodel region, but this in no way constrains how it may be used by a Registration Authority.",
-                    "value_definition": "Natural_Range is a datatype (3.1.8) comprising a range of “natural numbers“, i.e. the positive integers, including zero. Any instance of Natural_Range is one of: -a constant non-negative Integer -a bounded range of non-negative Integers defined by a minimum and a (strictly larger) maximum value -an unbounded range defined by only a non-negative minimum (e.g., 0..*, 1..*, 2..*)."
+                    "value_definition": "Natural_Range is a datatype comprising a range of “natural numbers“, i.e. the positive integers, including zero. Any instance of Natural_Range is one of: -a constant non-negative Integer -a bounded range of non-negative Integers defined by a minimum and a (strictly larger) maximum value -an unbounded range defined by only a non-negative minimum (e.g., 0..*, 1..*, 2..*)."
                 },
                 {
                     "value_item": "Sign",
@@ -214,7 +214,7 @@
             "max_length": 255,
             "representation_class": "Name",
     	    "source": "ISO",
-    	    "definition": "Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common.  A classification scheme may be a taxonomy, a network, an ontology, or any other terminological system. The classification may also be just a list of controlled vocabulary of property words (or terms). The list might be taken from the 'leaf level' of a taxonomy."
+    	    "definition": "Descriptive information for an arrangement or division of objects into groups based on criteria such as characteristics, which the objects have in common.  A classification scheme may be a taxonomy, a network, an ontology, or any other terminological system. The classification may also be just a list of controlled vocabulary of property words (or terms). The list might be taken from the 'leaf level' of a taxonomy."
     	},
     	    	{
     	    "page_name": "ValueDomain",

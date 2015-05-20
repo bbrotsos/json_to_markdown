@@ -54,7 +54,7 @@ are specified by means of a set of attributes. A Data Element is formed when a D
   </tr>
   <tr>
     <td><a href='data_elements/Definition.md' title='Defintion Text Details'>Defintion Text</a></td>
-    <td>The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source (7.3.2.4.2.3) for the text.</td>
+    <td>The definition text is a statement (commonly in a natural language) which specifies the meaning of the Designatable_Item. It may additionally record a source for the text.</td>
     <td>ISO</td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ are specified by means of a set of attributes. A Data Element is formed when a D
   </tr>
   <tr>
     <td><a href='data_elements/ClassificationScheme.md' title='Classification Scheme Details'>Classification Scheme</a></td>
-    <td>Descriptive information for an arrangement or division of objects (3.2.87) into groups based on criteria such as characteristics (3.2.14), which the objects have in common.  A classification scheme may be a taxonomy, a network, an ontology, or any other terminological system. The classification may also be just a list of controlled vocabulary of property words (or terms). The list might be taken from the 'leaf level' of a taxonomy.</td>
+    <td>Descriptive information for an arrangement or division of objects into groups based on criteria such as characteristics, which the objects have in common.  A classification scheme may be a taxonomy, a network, an ontology, or any other terminological system. The classification may also be just a list of controlled vocabulary of property words (or terms). The list might be taken from the 'leaf level' of a taxonomy.</td>
     <td>ISO</td>
   </tr>
   <tr>
