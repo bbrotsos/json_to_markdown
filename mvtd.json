@@ -1,0 +1,47 @@
+{
+    "data_elements": [
+        {
+            "page_name": "ColumnName",
+            "name": "Column Name",
+            "source": "W3C",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
+            "definition": "An atomic property that gives a single canonical name for the column. The value of this property becomes the name annotation for the described column."
+        },
+        {
+            "page_name": "SuppressOutput",
+            "name": "Suppress Output Indicator",
+            "source": "W3C",
+            "data_type_code": "Boolean",
+            "min_length": 0,
+            "max_length": 255,
+            "default": false,
+            "representation_class": "Indicator",
+            "definition": "A boolean atomic property. If true, suppresses any output that would be generated when converting cells in this column."
+        },
+         {
+            "page_name": "TitleArray",
+            "name": "Title Array",
+            "source": "W3C",
+            "data_type_code": "Array",
+            "min_length": 0,
+            "max_length": 255,
+            "default": false,
+            "representation_class": "Value",
+            "definition": "An array of <a href='mvtd_elements/title.md'>titles</a>"
+       },
+        {
+            "page_name": "Title",
+            "name": "Title Text",
+            "source": "W3C",
+            "data_type_code": "Boolean",
+            "min_length": 0,
+            "max_length": 255,
+            "default": false,
+            "representation_class": "Indicator",
+            "definition": "A natural language property that provides possible alternative names for the column. The string values of this property, along with their associated language tags, become the titles annotation for the described column."
+       }
+    ]
+}     

@@ -9,3 +9,5 @@ Swagger™ is a project used to describe and document RESTful APIs. The Swagger 
 
 3. <a href="http://metadata-standards.org/11179/">Metadata Registries: Registry metamodel and basic attributes, ISO 11179-3</a>
 Introduces and discusses fundamental ideas of data elements, value domains, data element concepts, conceptual domains, and classification schemes essential to the understanding of this set of standards and provides the context for associating the individual parts of ISO/IEC 11179.
+
+4. <a href="http://tools.ietf.org/html/draft-fge-json-schema-validation-00#section-5.1.2">JSON Schema: interactive and non interactive validation - DRAFT</a>  JSON Schema (application/schema+json) has several purposes, one of which is instance validation.  The validation process may be interactive or non interactive.  For instance, applications may use JSON Schema to build a user interface enabling interactive content generation in addition to user input checking, or validate data retrieved from various sources. 
