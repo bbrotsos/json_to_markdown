@@ -38,6 +38,7 @@
             "min_length": 0,
             "max_length": 255,
             "representation_class": "Code",
+            "comments": "UN/CEFACT Source: http://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS-CatalogueVersion3.pdf",
             "definition": "The major intent of Representation class is to provide a discrete and complete set of high-level (coarse granularity) definitions for data element/value domain categorization. This is an aid to the user in terms of application of business rules.", 
             "enumeration": [
                 {
