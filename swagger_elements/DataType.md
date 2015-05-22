@@ -1,0 +1,3 @@
+#Data Type Code Profile
+Description: Determines whether this parameter is mandatory<table>
+<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueDefinition.md'>Value Meaning</a></th></tr></thead><tr><td>string</td><td></td></tr><tr><td>number</td><td></td></tr><tr><td>integer</td><td></td></tr><tr><td>array</td><td></td></tr><tr><td>file</td><td></td></tr></table>

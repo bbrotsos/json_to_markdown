@@ -1,0 +1,3 @@
+#In Profile
+Description: The name of the parameter. Parameter names are case sensitive.<table>
+<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueDefinition.md'>Value Meaning</a></th></tr></thead><tr><td>query</td><td></td></tr><tr><td>header</td><td></td></tr><tr><td>path</td><td></td></tr><tr><td>formData</td><td></td></tr><tr><td>body</td><td></td></tr></table>

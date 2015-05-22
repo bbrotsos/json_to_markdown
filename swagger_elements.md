@@ -15,37 +15,37 @@
       <th scope="col">Source</th>
     </tr>
   </thead>  <tr>
-    <td><a href='data_elements/ParameterName.md' title='Parameter Name Details'>Parameter Name</a></td>
+    <td><a href='swagger_elements/ParameterName.md' title='Parameter Name Details'>Parameter Name</a></td>
     <td>The name of the parameter. Parameter names are case sensitive.</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/in.md' title='In Details'>In</a></td>
+    <td><a href='swagger_elements/in.md' title='In Details'>In</a></td>
     <td>The name of the parameter. Parameter names are case sensitive.</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/DescriptionText.md' title='Parameter Description Details'>Parameter Description</a></td>
+    <td><a href='swagger_elements/DescriptionText.md' title='Parameter Description Details'>Parameter Description</a></td>
     <td>A brief description of the parameter. This could contain examples of use. GFM syntax can be used for rich text representation.</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/Required.md' title='Required Indicator Details'>Required Indicator</a></td>
+    <td><a href='swagger_elements/Required.md' title='Required Indicator Details'>Required Indicator</a></td>
     <td>Determines whether this parameter is mandatory</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/DataType.md' title='Data Type Code Details'>Data Type Code</a></td>
+    <td><a href='swagger_elements/DataType.md' title='Data Type Code Details'>Data Type Code</a></td>
     <td>Determines whether this parameter is mandatory</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/Format.md' title='Data Type Code Details'>Data Type Code</a></td>
+    <td><a href='swagger_elements/Format.md' title='Data Type Code Details'>Data Type Code</a></td>
     <td>The extending format for the previously mentioned type. See Data Type Formats for further details.</td>
     <td>Swagger</td>
   </tr>
   <tr>
-    <td><a href='data_elements/EmptyValueIndiator.md' title='Empty Value Indicator Details'>Empty Value Indicator</a></td>
+    <td><a href='swagger_elements/EmptyValueIndiator.md' title='Empty Value Indicator Details'>Empty Value Indicator</a></td>
     <td>Sets the ability to pass empty-valued parameters. </td>
     <td>Swagger</td>
   </tr>

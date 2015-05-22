@@ -1,0 +1,2 @@
+#Required Indicator Profile
+Description: Determines whether this parameter is mandatory<table><thead><tr><th scope='col'>Property</th><th scope='col'>Definition</th></tr><tr><td><a href='DataTypeCode.md'>Data Type Code</a></td><td>Boolean</td></tr><tr><td><a href='MinimumLengthNumber.md'>Minimum Length Number</a></td><td>0</td></tr><tr><td><a href='MaximumLengthNumber.md'>Maximum Length Number</a></td><td>255</td></tr><tr><td><a href='RepresentationClass.md'>Representation Class Code</a></td><td>Indicator</td></tr></table>

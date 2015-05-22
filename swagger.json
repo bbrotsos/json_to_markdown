@@ -1,0 +1,198 @@
+{
+    "data_elements": [
+        {
+            "data_element_concept": "Data Element Name",
+            "page_name": "ParameterName",
+            "name": "Parameter Name",
+            "source": "Swagger",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Name",
+            "json_name":"name",
+            "rules": [
+            	{
+            	    "description":"If in is 'path', the name field MUST correspond to the associated path segment from the path field in the Paths Object. See Path Templating for further information."
+            	},
+            	{
+            	    "description":"For all other cases, the name corresponds to the parameter name used based on the in property."
+            	}
+            ],
+            "definition": "The name of the parameter. Parameter names are case sensitive."
+         },
+         {
+            "page_name": "in",
+            "name": "In",
+            "source": "Swagger",
+            "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
+            "json_name": "in",
+            "enumeration": [
+                {
+                    "value_item": "query",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "header",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "path",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "formData",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "body",
+                    "value_definition": ""
+                }
+            ],
+            "definition": "The name of the parameter. Parameter names are case sensitive."
+         },
+         {
+            "data_element_concept": "Description",
+            "page_name": "DescriptionText",
+            "name": "Parameter Description",
+            "source": "Swagger",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Text",
+            "json_name":"description",
+            "definition": "A brief description of the parameter. This could contain examples of use. GFM syntax can be used for rich text representation."
+         },
+         {
+            "data_element_concept": "Obligation",
+            "page_name": "Required",
+            "name": "Required Indicator",
+            "source": "Swagger",
+            "data_type_code": "Boolean",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Indicator",
+            "rules": [
+            	{
+            	    "description":"If the parameter is in 'path', this property is required and its value MUST be true. Otherwise, the property MAY be included and its default value is false."
+            	}
+            ],
+            "json_name":"required",
+            "definition": "Determines whether this parameter is mandatory"
+        },
+        {
+            "data_element_concept": "Data Type",
+            "page_name": "DataType",
+            "name": "Data Type Code",
+            "source": "Swagger",
+            "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
+            "rules": [
+            	{
+            	    "description":"If type is 'file', the consumes MUST be either 'multipart/form-data' or 'application/x-www-form-urlencoded' and the parameter MUST be in 'formData'"
+             	}
+            ],
+            "enumeration": [
+                {
+                    "value_item": "string",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "number",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "integer",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "array",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "file",
+                    "value_definition": ""
+                }
+            ],
+            "json_name":"required",
+            "definition": "Determines whether this parameter is mandatory"
+        },
+        {
+            "data_element_concept": "Format",
+            "page_name": "Format",
+            "name": "Data Type Code",
+            "source": "Swagger",
+            "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
+            "enumeration": [
+                {
+                    "value_item": "integer",
+                    "value_definition": "signed 32 bits"
+                },
+                {
+                    "value_item": "long",
+                    "value_definition": "signed 64 bits"
+                },
+                {
+                    "value_item": "float",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "double",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "string",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "byte",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "boolean",
+                    "value_definition": ""
+                },
+                {
+                    "value_item": "date",
+                    "value_definition": "As defined by full-date - RFC3339"
+                },
+                {
+                    "value_item": "dateTime",
+                    "value_definition": "As defined by date-time - RFC3339"
+                },
+                {
+                    "value_item": "password",
+                    "value_definition": "Used to hint UIs the input needs to be obscured."
+                }
+            ],
+            "json_name":"required",
+            "definition": "The extending format for the previously mentioned type. See Data Type Formats for further details."
+        },
+        {
+            "data_element_concept": "Empty Value Indicator",
+            "page_name": "EmptyValueIndiator",
+            "name": "Empty Value Indicator",
+            "source": "Swagger",
+            "data_type_code": "Boolean",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Indicator",
+            "rules": [
+            	{
+            	    "description":"This is valid only for either query or formData parameters and allows you to send a parameter with a name only or an empty value."
+            	}
+            ],
+            "json_name": "allowEmptyValue",
+            "default": "false",
+            "definition": "Sets the ability to pass empty-valued parameters. "
+       }  
+            
+    ]
+}

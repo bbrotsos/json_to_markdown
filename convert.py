@@ -13,9 +13,9 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-def elementToRow(dataElement):
+def elementToRow(dataElement, default_directory):
     row = "  <tr>\n"
-    row = row + "    <td><a href='data_elements/" + dataElement["page_name"] + ".md' title='" + dataElement["name"] + " Details'>" + dataElement["name"] + "</a></td>\n"
+    row = row + "    <td><a href='" + default_directory + "/" + dataElement["page_name"] + ".md' title='" + dataElement["name"] + " Details'>" + dataElement["name"] + "</a></td>\n"
     row = row + "    <td>" + dataElement["definition"] + "</td>\n"
     row = row + "    <td>" + dataElement["source"] + "</td>\n"
     row = row + "  </tr>\n"
@@ -63,7 +63,7 @@ def createDataElementListingPage(headerFile, footerFile, jsonInput, outputFile, 
     
 	for dataElement in data["data_elements"]:
 		print ("Processing " + dataElement["name"] + "...")
-		indexPageString = indexPageString + elementToRow(dataElement)
+		indexPageString = indexPageString + elementToRow(dataElement, default_directory)
 		elementToPage(dataElement, default_directory)
     
 	with open(footerFile, "r") as footerFile:	

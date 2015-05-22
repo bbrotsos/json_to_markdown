@@ -1,0 +1,3 @@
+#Data Type Code Profile
+Description: The extending format for the previously mentioned type. See Data Type Formats for further details.<table>
+<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueDefinition.md'>Value Meaning</a></th></tr></thead><tr><td>integer</td><td>signed 32 bits</td></tr><tr><td>long</td><td>signed 64 bits</td></tr><tr><td>float</td><td></td></tr><tr><td>double</td><td></td></tr><tr><td>string</td><td></td></tr><tr><td>byte</td><td></td></tr><tr><td>boolean</td><td></td></tr><tr><td>date</td><td>As defined by full-date - RFC3339</td></tr><tr><td>dateTime</td><td>As defined by date-time - RFC3339</td></tr><tr><td>password</td><td>Used to hint UIs the input needs to be obscured.</td></tr></table>
