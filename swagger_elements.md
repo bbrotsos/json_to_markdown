@@ -66,7 +66,7 @@
   </tr>
   <tr>
     <td><a href='swagger_elements/MaximumNumber.md' title='Maximum Number Details'>Maximum Number</a></td>
-    <td>If '[exclusiveMaximum](ExclusiveMaximumIndicator)' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'.</td>
+    <td>If [exclusiveMaximum](ExclusiveMaximumIndicator) is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'.</td>
     <td>JSON Schema</td>
   </tr>
   <tr>

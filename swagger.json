@@ -261,7 +261,7 @@
             "min_length": 0,
             "max_length": 16,
     		"source": "JSON Schema",
-    		"definition": "If '[exclusiveMaximum](ExclusiveMaximumIndicator)' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'."
+    		"definition": "If [exclusiveMaximum](ExclusiveMaximumIndicator) is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'."
     	},
     	{
     		"page_name": "ExclusiveMaximumIndicator",
