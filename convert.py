@@ -13,8 +13,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-default_directory = "data_elements"
-
 def elementToRow(dataElement):
     row = "  <tr>\n"
     row = row + "    <td><a href='data_elements/" + dataElement["page_name"] + ".md' title='" + dataElement["name"] + " Details'>" + dataElement["name"] + "</a></td>\n"
@@ -28,7 +26,7 @@ def enumeratedValueToTable(enumeratedValue):
     tableString = tableString + "<td>" + enumeratedValue["value_definition"] + "</td></tr>"
     return tableString
     
-def elementToPage(dataElement):
+def elementToPage(dataElement, default_directory):
     profilePage = "#" + dataElement["name"] + " Profile\n"
     profilePage = profilePage + "Description: " + dataElement["definition"]
     if "enumeration" in dataElement:
@@ -54,28 +52,32 @@ def elementToPage(dataElement):
     dataElementProfilePage.write(profilePage)
     dataElementProfilePage.close()
     
-indexPageString = ""
+def createDataElementListingPage(headerFile, footerFile, jsonInput, outputFile, default_directory):
+	indexPageString = ""
+	with open(headerFile, "r") as headerFile:
+		headerText = headerFile.read() #two spaces md newline
+	indexPageString = indexPageString + headerText
 
-with open("header.md", "r") as headerFile:
-	headerText = headerFile.read() #two spaces md newline
-
-indexPageString = indexPageString + headerText
-
-with open('data_interoperability.json') as data_file:
-    data = json.load(data_file)
+	with open(jsonInput) as data_file:
+		data = json.load(data_file)
     
-for dataElement in data["data_elements"]:
-    print ("Processing " + dataElement["name"] + "...")
-    indexPageString = indexPageString + elementToRow(dataElement)
-    elementToPage(dataElement)
+	for dataElement in data["data_elements"]:
+		print ("Processing " + dataElement["name"] + "...")
+		indexPageString = indexPageString + elementToRow(dataElement)
+		elementToPage(dataElement, default_directory)
     
-with open("footer.md", "r") as footerFile:	
-    footerText = footerFile.read()
+	with open(footerFile, "r") as footerFile:	
+		footerText = footerFile.read()
 
-indexPageString = indexPageString + footerText
+	indexPageString = indexPageString + footerText
 
-indexPage = open("Readme_Data_Interoperability.md", "w")
-indexPage.write(indexPageString)
-indexPage.close()
+	indexPage = open(outputFile, "w")
+	indexPage.write(indexPageString)
+	indexPage.close()
+
+#create iso elements
+createDataElementListingPage("header.md", "footer.md", "data_interoperability.json", "Readme_Data_Interoperability.md", "data_elements")
+createDataElementListingPage("swagger_header.md", "swagger_footer.md", "swagger.json", "swagger_elements.md", "swagger_elements")
+
 
 

@@ -5,6 +5,7 @@ Implementations may utilize technologies including, but not limited to: relation
 
 [Swagger Elements and Examples](swagger_elements.md)  
 [Metadata Vocabulary For Tabular Data](tabular_data.md)
+[Socrata SODA API](soda.md)
 
 <a href="definition_best_practices.md">Data Definition Best Practices</a>  
 <a href="data_element_best_practices.md">Data Element Naming Best Practices</a>  
