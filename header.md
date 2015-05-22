@@ -3,6 +3,9 @@ Research and development workspace for testing json-ld with Metadata Vocabulary 
 
 Implementations may utilize technologies including, but not limited to: relational database, JSON-ld, XML database, object oriented systems, or RDF/OWL.
 
+[Swagger Elements and Examples](swagger_elements.md)
+[Metadata Vocabulary For Tabular Data](tabular_data.md)
+
 <a href="definition_best_practices.md">Data Definition Best Practices</a>  
 <a href="data_element_best_practices.md">Data Element Naming Best Practices</a>  
 

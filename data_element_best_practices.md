@@ -17,7 +17,7 @@ _mostly copied from iso 11179_
 <a name="object_class"></a>
 ## Object Class Term
 
-In the MDR metamodel, an object class is a set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning, and whose properties and behaviour follow the same rules. Each object class has a name. The registration of object classes in a registry is optional, but if used, the set of actual and potential object class names provides a taxonomy of object class terms.  
+In the metadata registries metamodel, an object class is a set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning, and whose properties and behaviour follow the same rules. Each object class has a name. The registration of object classes in a registry is optional, but if used, the set of actual and potential object class names provides a taxonomy of object class terms.  
 
 An object class term may be a part of the name of the administered items conceptual domain, data element concept and data element, and represents an activity or object in a context. Use of a modelling methodology, as for instance an Entity Relationship Diagram (ERD) or object model, is a way to locate and discretely place administered items in relation to their higher-level model entities. The attributes of entity-relationship model entities equate to administered items that are related to each other through further application of the methodology. In an object model, data elements are expressed as object attributes.
 
