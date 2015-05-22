@@ -78,7 +78,7 @@ def createDataElementListingPage(headerFile, footerFile, jsonInput, outputFile, 
 #create iso elements
 createDataElementListingPage("header.md", "footer.md", "data_interoperability.json", "Readme_Data_Interoperability.md", "data_elements")
 createDataElementListingPage("swagger_header.md", "swagger_footer.md", "swagger.json", "swagger_elements.md", "swagger_elements")
-createDataElementListingPage("mvtd_header.md", "mvtd_footer.md", "mvtd.json", "swagger_elements.md", "mvtd_elements")
+createDataElementListingPage("mvtd_header.md", "mvtd_footer.md", "mvtd.json", "tabular_data.md", "mvtd_elements")
 
 
 
