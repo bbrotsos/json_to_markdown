@@ -119,7 +119,7 @@
                 }
             ],
             "json_name":"required",
-            "definition": "Determines whether this parameter is mandatory"
+            "definition": "he type of the parameter. Since the parameter is not located at the request body, it is limited to simple types (that is, not an object)."
         },
         {
             "data_element_concept": "Format",
@@ -192,7 +192,86 @@
             "json_name": "allowEmptyValue",
             "default": "false",
             "definition": "Sets the ability to pass empty-valued parameters. "
-       }  
-            
+       },
+       {
+            "data_element_concept": "Item Array",
+            "page_name": "ItemArray",
+            "name": "ItemArray",
+            "source": "Swagger",
+            "data_type_code": "Boolean",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Indicator",
+            "rules": [
+            	{
+            	    "description":"Required if type is 'array'"
+            	}
+            ],
+            "json_name": "items",
+            "definition": "Describes the type of items in the array."
+       },
+       {
+            "data_element_concept": "Collection Format",
+            "page_name": "CollectionFormatCode",
+            "name": "Collection Format Code",
+            "source": "Swagger",
+            "data_type_code": "Enumerated",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Code",
+            "enumeration": [
+                {
+                    "value_item": "csv",
+                    "value_definition": "comma separated values foo,bar."
+                },
+                {
+                    "value_item": "ssv",
+                    "value_definition": "pace separated values foo bar."
+                },
+                {
+                    "value_item": "tsv",
+                    "value_definition": "tab separated values foo\tbar."
+                },
+                {
+                    "value_item": "array",
+                    "value_definition": "pipes - pipe separated values foo|bar"
+                }
+            ],
+            "json_name":"collectionFormat",
+            "default": "csv",
+            "definition": "Determines the format of the array if type array is used."
+        },    
+        {
+            "data_element_concept": "Default",
+            "page_name": "DefaultValue",
+            "name": "Default Value",
+            "source": "JSON Schema",
+            "data_type_code": "Character",
+            "min_length": 0,
+            "max_length": 255,
+            "representation_class": "Value",
+            "json_name":"default",
+            "definition": "This keyword can be used to supply a default JSON value associated with a particular schema. It is RECOMMENDED that a default value be valid against the associated schema."
+        },
+        {
+    		"page_name": "MaximumNumber",
+    		"name": "Maximum Number",
+    		"data_type_code": "Number",
+            "representation_class": "Number",
+            "min_length": 0,
+            "max_length": 16,
+    		"source": "JSON Schema",
+    		"definition": "If '[exclusiveMaximum](ExclusiveMaximumIndicator)' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'."
+    	},
+    	{
+    		"page_name": "ExclusiveMaximumIndicator",
+    		"name": "Exclusive Maximum Indicator",
+    		"data_type_code": "Boolean",
+            "representation_class": "Indicator",
+            "min_length": 0,
+            "max_length": 16,
+    		"source": "JSON Schema",
+    		"definition": "If 'exclusiveMaximum' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of '[maximum](MaximumNumber)';  if 'exclusiveMaximum' has boolean value true, the instance is valid if it is strictly lower than the value of '[maximum](MaximumNumber)'."
+    	}            
     ]
 }

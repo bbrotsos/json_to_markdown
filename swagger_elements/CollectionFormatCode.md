@@ -1,0 +1,3 @@
+#Collection Format Code Profile
+Description: Determines the format of the array if type array is used.<table>
+<thead><tr><th scope='col'><a href='ValueItem.md'>Value Item</a></th><th scope='col'><a href='ValueDefinition.md'>Value Meaning</a></th></tr></thead><tr><td>csv</td><td>comma separated values foo,bar.</td></tr><tr><td>ssv</td><td>pace separated values foo bar.</td></tr><tr><td>tsv</td><td>tab separated values foo	bar.</td></tr><tr><td>array</td><td>pipes - pipe separated values foo|bar</td></tr></table>

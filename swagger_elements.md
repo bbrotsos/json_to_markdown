@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td><a href='swagger_elements/DataType.md' title='Data Type Code Details'>Data Type Code</a></td>
-    <td>Determines whether this parameter is mandatory</td>
+    <td>he type of the parameter. Since the parameter is not located at the request body, it is limited to simple types (that is, not an object).</td>
     <td>Swagger</td>
   </tr>
   <tr>
@@ -48,5 +48,30 @@
     <td><a href='swagger_elements/EmptyValueIndiator.md' title='Empty Value Indicator Details'>Empty Value Indicator</a></td>
     <td>Sets the ability to pass empty-valued parameters. </td>
     <td>Swagger</td>
+  </tr>
+  <tr>
+    <td><a href='swagger_elements/ItemArray.md' title='ItemArray Details'>ItemArray</a></td>
+    <td>Describes the type of items in the array.</td>
+    <td>Swagger</td>
+  </tr>
+  <tr>
+    <td><a href='swagger_elements/CollectionFormatCode.md' title='Collection Format Code Details'>Collection Format Code</a></td>
+    <td>Determines the format of the array if type array is used.</td>
+    <td>Swagger</td>
+  </tr>
+  <tr>
+    <td><a href='swagger_elements/DefaultValue.md' title='Default Value Details'>Default Value</a></td>
+    <td>This keyword can be used to supply a default JSON value associated with a particular schema. It is RECOMMENDED that a default value be valid against the associated schema.</td>
+    <td>JSON Schema</td>
+  </tr>
+  <tr>
+    <td><a href='swagger_elements/MaximumNumber.md' title='Maximum Number Details'>Maximum Number</a></td>
+    <td>If '[exclusiveMaximum](ExclusiveMaximumIndicator)' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of 'maximum';  if '[exclusiveMaximum](ExclusiveMaximumIndicator)' has boolean value true, the instance is valid if it is strictly lower than the value of 'maximum'.</td>
+    <td>JSON Schema</td>
+  </tr>
+  <tr>
+    <td><a href='swagger_elements/ExclusiveMaximumIndicator.md' title='Exclusive Maximum Indicator Details'>Exclusive Maximum Indicator</a></td>
+    <td>If 'exclusiveMaximum' is not present, or has boolean value false, then the instance is valid if it is lower than, or equal to, the value of '[maximum](MaximumNumber)';  if 'exclusiveMaximum' has boolean value true, the instance is valid if it is strictly lower than the value of '[maximum](MaximumNumber)'.</td>
+    <td>JSON Schema</td>
   </tr>
 </table>
