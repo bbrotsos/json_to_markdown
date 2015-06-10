@@ -12,7 +12,7 @@ _mostly copied from iso 11179_
 * Don’t use Organization Names
 * Don’t use Acronyms 
 * Don’t use System Names
-* Don’t use prepositions or conjunctions (You can break this sometimes eg Unit of Measure)
+* Don’t use prepositions, conjunctions or articles (You can break this sometimes eg Unit of Measure)
 
 <a name="object_class"></a>
 ## Object Class Term
