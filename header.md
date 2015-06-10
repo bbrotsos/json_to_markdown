@@ -5,7 +5,7 @@ Implementations may utilize technologies including, but not limited to: relation
 
 [Swagger Elements and Examples](swagger_elements.md) *Note: the api portion most likely becomes an admin_item*    
 [Metadata Vocabulary For Tabular Data](tabular_data.md)  
-[Socrata SODA API](soda.md)
+[Socrata SODA API](soda.md)  
 [Metadata Schema for Data Dictionaries - Statistical Community of Practice and Engagement (SCOPE)](scope.md)
 
 <a href="definition_best_practices.md">Data Definition Best Practices</a>  
